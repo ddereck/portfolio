@@ -47,7 +47,7 @@ const techStack = [
           <div class="profile-image relative w-72 h-72">
             <div class="absolute inset-0 rounded-full bg-gradient-to-br from-blue-500 to-purple-500 opacity-75 blur-lg"></div>
             <img 
-              src="/profile.jpg" 
+              src="/src/assets/profile.jpeg" 
               alt="Gilles-Déreck GNANCADJA"
               class="absolute inset-0 w-full h-full object-cover rounded-full border-4 border-white/20 shadow-2xl"
             >
@@ -65,8 +65,8 @@ const techStack = [
               Systems & Software Engineer
             </h2>
             <p class="text-xl text-gray-300 leading-relaxed max-w-2xl mx-auto lg:mx-0">
-              Backend Developer with over 4 years of experience in application design and maintenance. 
-              Expert in Python and Java development, specializing in API design and database optimization.
+              Backend & AI Developer with over 4 years of experience in application design and maintenance. 
+              Expert in Python, Java & Flutter development, specializing in API design and database optimization.
             </p>
           </div>
           
