@@ -36,7 +36,7 @@ const techStack = [
 <template>
   <div class="relative min-h-screen flex items-center justify-center py-20 px-4">
     <div class="absolute inset-0">
-      <div class="absolute inset-0 bg-gradient-to-br from-blue-600/20 via-purple-600/20 to-pink-600/20 backdrop-blur-sm"></div>
+      <div class="absolute inset-0 bg-gradient-to-br from-gray-900/20 via-gray-800/20 to-gray-900/20 backdrop-blur-sm"></div>
       <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.1)_0%,transparent_70%)]"></div>
     </div>
     
@@ -62,11 +62,11 @@ const techStack = [
               Gilles-Déreck GNANCADJA
             </h1>
             <h2 class="text-2xl lg:text-3xl font-bold text-gray-200">
-              Systems & Software Engineer
+              Ingénieur Systèmes et Logiciels
             </h2>
             <p class="text-xl text-gray-300 leading-relaxed max-w-2xl mx-auto lg:mx-0">
-              Backend & AI Developer with over 4 years of experience in application design and maintenance. 
-              Expert in Python, Java & Flutter development, specializing in API design and database optimization.
+              Administrateur systèmes, Développeur Backend & IA avec plus de 4 ans d’expérience dans la conception et la maintenance d’applications. 
+              Expert en développement Python, Java et Flutter, spécialisé dans la conception et l'intégration d’APIs ainsi que la gestion de bases de données.
             </p>
           </div>
           
@@ -82,15 +82,15 @@ const techStack = [
           </div>
           
           <div class="about-content flex gap-6 justify-center lg:justify-start">
-            <a href="#projects" 
+            <a href="#services" 
               class="px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full 
               hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105">
-              View Projects
+              Mes Services
             </a>
             <a href="#contact" 
               class="px-8 py-3 border border-white/30 rounded-full hover:bg-white/10 
               transition-all duration-300">
-              Contact Me
+              Me Contacter
             </a>
           </div>
         </div>

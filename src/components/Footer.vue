@@ -13,7 +13,7 @@ const currentYear = new Date().getFullYear();
           <a href="mailto:itgillo60@gmail.com" class="text-gray-400 hover:text-white transition-colors">
             <i class="fas fa-envelope"></i>
           </a>
-          <a href="tel:+2290166934669" class="text-gray-400 hover:text-white transition-colors">
+          <a href="tel:+2290195807568" class="text-gray-400 hover:text-white transition-colors">
             <i class="fas fa-phone"></i>
           </a>
           <a href="https://www.linkedin.com/in/gilles-dereck-gnancadja" target="_blank" class="text-gray-400 hover:text-white transition-colors">

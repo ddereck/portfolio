@@ -9,7 +9,6 @@ const projects = ref<Project[]>([
     title: 'E-commerce Platform',
     description: 'Full-stack e-commerce solution with Django REST framework backend and Vue.js frontend. Features include user authentication, product management, and payment integration.',
     technologies: ['Python', 'Django', 'Vue.js', 'PostgreSQL', 'Redis'],
-    githubUrl: 'https://github.com/yourusername/ecommerce',
     imageUrl: 'https://picsum.photos/seed/ecommerce/800/600'
   },
   {
@@ -17,7 +16,6 @@ const projects = ref<Project[]>([
     title: 'Task Management System',
     description: 'Enterprise task management application with real-time updates, team collaboration features, and detailed analytics dashboard.',
     technologies: ['Node.js', 'Express', 'MongoDB', 'WebSocket', 'React'],
-    githubUrl: 'https://github.com/yourusername/task-manager',
     imageUrl: 'https://picsum.photos/seed/taskmanager/800/600'
   },
   {
@@ -25,7 +23,6 @@ const projects = ref<Project[]>([
     title: 'DevOps Automation Suite',
     description: 'Comprehensive DevOps toolkit for automated deployment, monitoring, and infrastructure management using modern cloud technologies.',
     technologies: ['Python', 'Docker', 'Kubernetes', 'Jenkins', 'AWS'],
-    githubUrl: 'https://github.com/yourusername/devops-suite',
     imageUrl: 'https://picsum.photos/seed/devops/800/600'
   },
   {
@@ -33,7 +30,6 @@ const projects = ref<Project[]>([
     title: 'Healthcare Management System',
     description: 'Secure and scalable healthcare management platform with electronic health records, appointment scheduling, and billing integration.',
     technologies: ['Java', 'Spring Boot', 'MySQL', 'Angular', 'OAuth2'],
-    githubUrl: 'https://github.com/yourusername/healthcare-system',
     imageUrl: 'https://picsum.photos/seed/healthcare/800/600'
   }
 ]);
@@ -54,8 +50,8 @@ onMounted(() => {
 
 <template>
   <div class="container mx-auto px-4 py-20">
-    <h2 class="text-4xl md:text-5xl font-bold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400">
-      Featured Projects
+    <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400">
+      Projets Réalisés
     </h2>
     <div class="projects-grid grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
       <div v-for="project in projects" :key="project.id" 
@@ -76,11 +72,6 @@ onMounted(() => {
             </span>
           </div>
           <div class="flex gap-4">
-            <a v-if="project.githubUrl" :href="project.githubUrl" target="_blank"
-              class="inline-flex items-center gap-2 px-4 py-2 bg-white/10 rounded-lg hover:bg-white/20 transition-all duration-300">
-              <i class="fab fa-github"></i>
-              View Code
-            </a>
             <a v-if="project.demoUrl" :href="project.demoUrl" target="_blank"
               class="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg
               hover:from-blue-700 hover:to-purple-700 transition-all duration-300">

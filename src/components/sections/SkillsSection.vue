@@ -42,7 +42,7 @@ onMounted(() => {
 
 <template>
   <div class="container mx-auto px-4 py-20">
-    <h2 class="text-4xl md:text-5xl font-bold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400">
+    <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400">
       Skills & Expertise
     </h2>
     <div class="skills-container max-w-4xl mx-auto grid gap-12">
