@@ -51,6 +51,7 @@ const handleSubmit = () => {
           <input type="hidden" name="_autoresponse" value="Merci de nous avoir contactés.
                    Nous avons bien reçu votre requête et la traiterons dans les plus brefs délais. 
                   Cordialement.">
+          <input type="hidden" name="_next" value="https://ddereck.github.io/portfolio/">
           <button type="submit"
             class="w-full py-3 px-4 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 rounded-lg text-white font-medium transition-all duration-300 transform hover:scale-105">
             Envoyer le Message
